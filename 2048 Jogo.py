@@ -24,7 +24,6 @@ def imprimir_tabuleiro(tabuleiro):
 
 
 def mover(tabuleiro, direcao):
-    pontuacao = 0
     if direcao == 'cima':
         for j in range(4):
             coluna = [tabuleiro[i][j] for i in range(4)]
